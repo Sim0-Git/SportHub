@@ -1,0 +1,25 @@
+//  =================================
+//  HEADER
+//  =================================
+
+.header {
+    z-index: 2;
+    background-color: black;
+    position: sticky;
+    top: 0;
+    left: 0;
+
+    &__content {
+        height: 80px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 100%;
+        padding-top: 20px;
+    }
+
+    &__search-bar {
+        width: 380px;
+    }
+}
